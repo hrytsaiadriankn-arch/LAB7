@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  UnitTest2.cpp
+     Creating library D:\LAB7.1 Іт\Project1\x64\Debug\UnitTest2.lib and object D:\LAB7.1 Іт\Project1\x64\Debug\UnitTest2.exp
+UnitTest2.obj : error LNK2019: unresolved external symbol "void __cdecl ChangeCols(int * *,int,int,int)" (?ChangeCols@@YAXPEAPEAHHHH@Z) referenced in function "public: void __cdecl UnitTestMatrix::UnitTestMatrix::TestChangeCols(void)" (?TestChangeCols@UnitTestMatrix@1@QEAAXXZ)
+UnitTest2.obj : error LNK2019: unresolved external symbol "void __cdecl Sort(int * *,int,int)" (?Sort@@YAXPEAPEAHHH@Z) referenced in function "public: void __cdecl UnitTestMatrix::UnitTestMatrix::TestSortColumns(void)" (?TestSortColumns@UnitTestMatrix@1@QEAAXXZ)
+UnitTest2.obj : error LNK2019: unresolved external symbol "void __cdecl Calc(int * *,int,int,int &,int &)" (?Calc@@YAXPEAPEAHHHAEAH1@Z) referenced in function "public: void __cdecl UnitTestMatrix::UnitTestMatrix::TestCalcFunction(void)" (?TestCalcFunction@UnitTestMatrix@1@QEAAXXZ)
+D:\LAB7.1 Іт\Project1\x64\Debug\UnitTest2.dll : fatal error LNK1120: 3 unresolved externals
